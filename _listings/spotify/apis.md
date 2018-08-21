@@ -14,6 +14,20 @@ specificationVersion: "0.14"
 apis:
 - name: Spotify
   x-api-slug: spotify
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
+  humanURL: http://www.spotify.com
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/spotify/albums-get-openapi.md
+- name: Spotify
+  x-api-slug: spotify
   description: Spotify is a digital music service that gives you access to millions
     of songs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg

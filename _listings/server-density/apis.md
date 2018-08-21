@@ -14,6 +14,16 @@ specificationVersion: "0.14"
 apis:
 - name: Alerts API
   x-api-slug: alerts-api
+  description: the-alerts-api-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/server-density/alertstriggered-get-openapi.md
+- name: Alerts API
+  x-api-slug: alerts-api
   description: SaaS infrastructure monitoring. Dashboards, graphs and alerts to help
     you improve performance and maintain uptime. Organizer of @humanops
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg

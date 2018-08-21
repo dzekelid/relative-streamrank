@@ -14,6 +14,97 @@ specificationVersion: "0.14"
 apis:
 - name: PredictHQ
   x-api-slug: predicthq
+  description: todo-add-description
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
+  humanURL: http://www.predicthq.com/
+  baseURL: https://api.predicthq.com//
+  tags: SaaS, Technology, Events, API Provider, Profiles, Service API, Relative Data,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-openapi.md
+- name: PredictHQ
+  x-api-slug: predicthq
+  description: todo-add-description
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
+  humanURL: http://www.predicthq.com/
+  baseURL: https://api.predicthq.com//
+  tags: SaaS, Technology, Events, API Provider, Profiles, Service API, Relative Data,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1places-get-openapi.md
+- name: PredictHQ
+  x-api-slug: predicthq
+  description: todo-add-description
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
+  humanURL: http://www.predicthq.com/
+  baseURL: https://api.predicthq.com//
+  tags: SaaS, Technology, Events, API Provider, Profiles, Service API, Relative Data,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1places-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signals-get-openapi.md
+- name: PredictHQ
+  x-api-slug: predicthq
+  description: todo-add-description
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
+  humanURL: http://www.predicthq.com/
+  baseURL: https://api.predicthq.com//
+  tags: SaaS, Technology, Events, API Provider, Profiles, Service API, Relative Data,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1places-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signals-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signalssignal-idanalysis-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signalssignal-idanalysis-get-openapi.md
+- name: PredictHQ
+  x-api-slug: predicthq
+  description: todo-add-description
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
+  humanURL: http://www.predicthq.com/
+  baseURL: https://api.predicthq.com//
+  tags: SaaS, Technology, Events, API Provider, Profiles, Service API, Relative Data,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1events-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1places-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signals-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signalssignal-idanalysis-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signalssignal-idanalysis-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signalssignal-iddimensions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/predicthq/v1signalssignal-iddimensions-get-openapi.md
+- name: PredictHQ
+  x-api-slug: predicthq
   description: Event visibility yields higher returns & reduces operational costs.
     PredictHQ is the worlds largest source of intelligent event data making businesses
     smarter.

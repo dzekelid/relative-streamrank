@@ -16,6 +16,36 @@ specificationVersion: "0.14"
 apis:
 - name: OpenDataSoft
   x-api-slug: opendatasoft
+  description: opendatasoft-is-a-cloudbased-turnkey-platform-for-data-publishing-and-api-management--its-interface-is-intuitively-designed-to-empower-anyone-regardless-of-technical-skills-to-upload-easytounderstand-open-data-or-to-even-share-data-within-an-admi---
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Cities, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/opendatasoft/pages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/opendatasoft/pages-get-openapi.md
+- name: OpenDataSoft
+  x-api-slug: opendatasoft
+  description: opendatasoft-is-a-cloudbased-turnkey-platform-for-data-publishing-and-api-management--its-interface-is-intuitively-designed-to-empower-anyone-regardless-of-technical-skills-to-upload-easytounderstand-open-data-or-to-even-share-data-within-an-admi---
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Cities, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/opendatasoft/pages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/opendatasoft/pages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/opendatasoft/sourcedatasets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/opendatasoft/sourcedatasets-get-openapi.md
+- name: OpenDataSoft
+  x-api-slug: opendatasoft
   description: OpenDataSoft is a cloud-based turnkey platform for data publishing
     and API management. Its interface is intuitively designed to empower anyone, regardless
     of technical skills, to upload easy-to-understand Open Data, or to even share

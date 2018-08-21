@@ -15,4 +15,62 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /v2/companies/{companyId}/employees/{employeeId}/earnings:
+    get:
+      summary: Get All Earnings
+      description: Get All Earnings returns all earnings for the selected employee.
+      operationId: v2.companies.companyId.employees.employeeId.earnings.get
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidearnings-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: employeeId
+        description: Employee Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - Earnings
+  /v2/companies/{companyId}/employees/{employeeId}/earnings/{earningCode}:
+    get:
+      summary: Get Earnings by Earning Code
+      description: Get Earnings returns all earnings with the provided earning code
+        for the selected employee.
+      operationId: v2.companies.companyId.employees.employeeId.earnings.earningCode.get
+      x-api-path-slug: v2companiescompanyidemployeesemployeeidearningsearningcode-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer + JWT
+      - in: path
+        name: companyId
+        description: Company Id
+      - in: path
+        name: earningCode
+        description: Earning Code
+      - in: path
+        name: employeeId
+        description: Employee Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - V2
+      - Companies
+      - CompanyId
+      - Employees
+      - EmployeeId
+      - Earnings
+      - EarningCode
 ---

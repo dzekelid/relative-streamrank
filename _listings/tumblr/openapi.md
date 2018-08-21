@@ -14,4 +14,180 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /user/following:
+    get:
+      summary: Get User Following
+      description: Use this method to retrieve the blogs followed by the user whose
+        OAuth credentials are submitted with the request.
+      operationId: user.following.get
+      x-api-path-slug: userfollowing-get
+      parameters:
+      - in: query
+        name: limit
+        description: 'The number of results to return: 1???20, inclusive'
+      - in: query
+        name: offset
+        description: Result number to start at
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+        200:
+          description: OK
+      tags:
+      - User
+      - Following
+  /user/likes:
+    get:
+      summary: Get User Likes
+      description: Use this method to retrieve the liked posts that match the OAuth
+        credentials submitted with the request.
+      operationId: user.likes.get
+      x-api-path-slug: userlikes-get
+      parameters:
+      - in: query
+        name: limit
+        description: 'The number of results to return: 1???20, inclusive'
+      - in: query
+        name: offset
+        description: Liked post number to start at
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Likes
+  /user/dashboard:
+    get:
+      summary: Get User Dashboard
+      description: Use this method to retrieve the dashboard that matches the OAuth
+        credentials submitted with the request.
+      operationId: user.dashboard.get
+      x-api-path-slug: userdashboard-get
+      parameters:
+      - in: query
+        name: limit
+        description: 'The number of results to return: 1???20, inclusive'
+      - in: query
+        name: offset
+        description: Post number to start at
+      - in: query
+        name: since_id
+        description: Return posts that have appeared after this ID
+      - in: query
+        name: type
+        description: The type of post to return
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Dashboard
+  /blog/{base-hostname}/followers:
+    get:
+      summary: Get Blog Base Hostname Followers
+      description: Retrieves a blog's followers.
+      operationId: blog.base_hostname.followers.get
+      x-api-path-slug: blogbasehostnamefollowers-get
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
+      - in: query
+        name: limit
+        description: 'The number of results to return: 1???20, inclusive'
+      - in: query
+        name: offset
+        description: Result to start at
+      responses:
+        200:
+          description: OK
+      tags:
+      - Blog
+      - Base
+      - Hostname
+      - Followers
+  /blog/{base-hostname}/post:
+    post:
+      summary: Add Blog Base Hostname Add
+      description: Creates a new video blog post.
+      operationId: blog.base_hostname.post.post
+      x-api-path-slug: blogbasehostnamepost-post
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
+      - in: query
+        name: caption
+        description: The user-supplied caption
+      - in: query
+        name: data
+        description: A video file, as URL-encoded binary
+      - in: query
+        name: date
+        description: The GMT date and time of the post, as a string
+      - in: query
+        name: embed
+        description: HTML embed code for the video
+      - in: query
+        name: markdown
+        description: Indicates whether the post uses markdown syntax
+      - in: query
+        name: tags
+        description: Comma-separated tags for this post
+      - in: query
+        name: tweet
+        description: 'Manages the autotweet (if enabled) for this post: set to off
+          for no tweet, or enter text to override the default tweet'
+      - in: query
+        name: type
+        description: The type of post to create
+      responses:
+        200:
+          description: OK
+      tags:
+      - Blog
+      - Base
+      - Hostname
+      - Post
 ---

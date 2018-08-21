@@ -14,6 +14,267 @@ specificationVersion: "0.14"
 apis:
 - name: Pivotal Tracker
   x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationsdone-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationsdone-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationsdone-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationsdone-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idmemberships-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationsdone-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationsdone-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idstories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idstories-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/activities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projects-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationscurrent-backlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationsdone-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-iditerationsdone-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idstories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idstories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idstoriesstory-idtasks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pivotal-tracker/projectsproject-idstoriesstory-idtasks-get-openapi.md
+- name: Pivotal Tracker
+  x-api-slug: pivotal-tracker
   description: Whether welding together two apps or forging a unique one, tap into
     100% of the Tracker feature set with the very same API the Tracker team uses.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg

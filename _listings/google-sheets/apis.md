@@ -17,6 +17,18 @@ specificationVersion: "0.14"
 apis:
 - name: Google Sheets
   x-api-slug: google-sheets
+  description: reads-and-writes-google-sheets-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-sheets-icon.png
+  humanURL: https://developers.google.com/sheets/
+  baseURL: https://sheets.googleapis.com/v4/
+  tags: Google APIs, Spreadsheets, Data, Documents, Stack Network, Stack, Productivity,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API, Relative
+    StreamRank, StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/google-sheets/spreadsheetsspreadsheetid-get-openapi.md
+- name: Google Sheets
+  x-api-slug: google-sheets
   description: 'Google Sheets is an online spreadsheet app that lets users create
     and format spreadsheets and simultaneously work with other people. Google Sheets
     isn&rsquo;t only for consumers: its used every day by businesses and schools to

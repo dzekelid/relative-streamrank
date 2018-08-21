@@ -14,6 +14,82 @@ specificationVersion: "0.14"
 apis:
 - name: StatusPage.io
   x-api-slug: statuspage-io
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
+  humanURL: https://www.statuspage.io/
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idincidents-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idincidents-json-get-openapi.md
+- name: StatusPage.io
+  x-api-slug: statuspage-io
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
+  humanURL: https://www.statuspage.io/
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idincidents-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idincidents-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idmetrics-providers-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idmetrics-providers-json-get-openapi.md
+- name: StatusPage.io
+  x-api-slug: statuspage-io
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
+  humanURL: https://www.statuspage.io/
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idincidents-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idincidents-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idmetrics-providers-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idmetrics-providers-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idpage-access-groups-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idpage-access-groups-json-get-openapi.md
+- name: StatusPage.io
+  x-api-slug: statuspage-io
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
+  humanURL: https://www.statuspage.io/
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idincidents-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idincidents-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idmetrics-providers-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idmetrics-providers-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idpage-access-groups-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idpage-access-groups-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idpage-access-users-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/statuspage/pagespage-idpage-access-users-json-get-openapi.md
+- name: StatusPage.io
+  x-api-slug: statuspage-io
   description: StatusPage.io is the best way for web infrastructure, developer API,
     and SaaS companies to get set up with their very own status page in minutes
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg

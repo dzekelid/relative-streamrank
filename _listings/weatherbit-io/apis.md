@@ -14,6 +14,36 @@ specificationVersion: "0.14"
 apis:
 - name: Weatherbit
   x-api-slug: weatherbit
+  description: this-is-the-documentation-for-the-weatherbit-api---the-base-url-for-the-api-is-httpapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0-or-httpsapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0--below-is-the-swagger-ui-documentation-for-the-api--all-api-requests-require-the-key-parameter---------an-example-for-a-5-day-forecast-for-london-uk-would-be-httpapi-weatherbit-iov2-0forecast3hourlycitylondoncountryuk
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg
+  humanURL: http://weatherbit.io
+  baseURL: https://api.weatherbit.io//v2.0
+  tags: Weather, SaaS, Broadcasts, General Data, Service API, StreamRank, Relative
+    StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/forecast3hourlycitycitycountrycountry-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/forecast3hourlycitycitycountrycountry-get-openapi.md
+- name: Weatherbit
+  x-api-slug: weatherbit
+  description: this-is-the-documentation-for-the-weatherbit-api---the-base-url-for-the-api-is-httpapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0-or-httpsapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0--below-is-the-swagger-ui-documentation-for-the-api--all-api-requests-require-the-key-parameter---------an-example-for-a-5-day-forecast-for-london-uk-would-be-httpapi-weatherbit-iov2-0forecast3hourlycitylondoncountryuk
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg
+  humanURL: http://weatherbit.io
+  baseURL: https://api.weatherbit.io//v2.0
+  tags: Weather, SaaS, Broadcasts, General Data, Service API, StreamRank, Relative
+    StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/forecast3hourlycitycitycountrycountry-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/forecast3hourlycitycitycountrycountry-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/currentcitycity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/currentcitycity-get-openapi.md
+- name: Weatherbit
+  x-api-slug: weatherbit
   description: Our Weather API is the most powerful Weather data API on the web. Sign
     up for our free Weather API, and upgrade as your weather data needs grow!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg

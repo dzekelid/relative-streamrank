@@ -14,4 +14,24 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /albums:
+    get:
+      summary: Get Albums
+      description: '[Get Several Albums](https://developer.spotify.com/web-api/get-several-albums/)'
+      operationId: get-several-albumshttpsdeveloperspotifycomwebapigetseveralalbums
+      x-api-path-slug: albums-get
+      parameters:
+      - in: query
+        name: ids
+        description: A comma-separated list of IDs
+      - in: query
+        name: market
+        description: The market (an ISO 3166-1 alpha-2 country code)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Music
+      - Albums
 ---

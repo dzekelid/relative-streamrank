@@ -14,6 +14,94 @@ specificationVersion: "0.14"
 apis:
 - name: Swagger Hub Registry
   x-api-slug: swagger-hub-registry
+  description: the-registry-api-for-swaggerhub
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
+  humanURL: https://swagger.io/
+  baseURL: https://api.swaggerhub.com//
+  tags: Clients, Stack Network, SaaS, Technology, StreamRank, Relative StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-openapi.md
+- name: Swagger Hub Registry
+  x-api-slug: swagger-hub-registry
+  description: the-registry-api-for-swaggerhub
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
+  humanURL: https://swagger.io/
+  baseURL: https://api.swaggerhub.com//
+  tags: Clients, Stack Network, SaaS, Technology, StreamRank, Relative StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/specs-get-openapi.md
+- name: Swagger Hub Registry
+  x-api-slug: swagger-hub-registry
+  description: the-registry-api-for-swaggerhub
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
+  humanURL: https://swagger.io/
+  baseURL: https://api.swaggerhub.com//
+  tags: Clients, Stack Network, SaaS, Technology, StreamRank, Relative StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/specs-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/domains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/domains-get-openapi.md
+- name: Swagger Hub Registry
+  x-api-slug: swagger-hub-registry
+  description: the-registry-api-for-swaggerhub
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
+  humanURL: https://swagger.io/
+  baseURL: https://api.swaggerhub.com//
+  tags: Clients, Stack Network, SaaS, Technology, StreamRank, Relative StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/specs-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/domains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/domains-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apisownerapi-collaboration-get-openapi.md
+- name: Swagger Hub Registry
+  x-api-slug: swagger-hub-registry
+  description: the-registry-api-for-swaggerhub
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg
+  humanURL: https://swagger.io/
+  baseURL: https://api.swaggerhub.com//
+  tags: Clients, Stack Network, SaaS, Technology, StreamRank, Relative StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apis-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/specs-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/domains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/domains-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apisownerapi-collaboration-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apisownerapiversion-comment-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/swagger/apisownerapiversion-comment-get-openapi.md
+- name: Swagger Hub Registry
+  x-api-slug: swagger-hub-registry
   description: Swagger aides in development across the entire API lifecycle, from
     design and documentation, to test and deployment. Try it today!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18963-swaggerhub.jpg

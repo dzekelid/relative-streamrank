@@ -14,4 +14,38 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /pages:
+    get:
+      summary: Get Pages
+      description: List of all pages from this portal.
+      operationId: getPages
+      x-api-path-slug: pages-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Pages
+  /{source}/datasets:
+    get:
+      summary: Get Source Datasets
+      description: |-
+        List of available datasets, each with their endpoints, paginated.
+
+        Links provided:
+        * previous page
+        * next page
+        * last page
+        * first page
+      operationId: getDatasets
+      x-api-path-slug: sourcedatasets-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
 ---

@@ -16,6 +16,45 @@ specificationVersion: "0.14"
 apis:
 - name: Stride
   x-api-slug: stride
+  description: this-service-provides-public-api-for-the-stride-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Networks,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/stride/sitecloudidconversation-get-openapi.md
+- name: Stride
+  x-api-slug: stride
+  description: this-service-provides-public-api-for-the-stride-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Networks,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/stride/sitecloudidconversation-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/stride/sitecloudidconversationconversationid-get-openapi.md
+- name: Stride
+  x-api-slug: stride
+  description: this-service-provides-public-api-for-the-stride-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Networks,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/stride/sitecloudidconversation-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/stride/sitecloudidconversationconversationid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/stride/sitecloudidconversationconversationidroster-get-openapi.md
+- name: Stride
+  x-api-slug: stride
   description: Stride is a cloud-based team business communication and collaboration
     tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
     software is available to download onto computers running Windows, Mac or Linux,

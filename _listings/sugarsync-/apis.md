@@ -16,6 +16,116 @@ specificationVersion: "0.14"
 apis:
 - name: Sugar Sync  API
   x-api-slug: sugar-sync--api
+  description: the-sugarsync-service-presents-a-set-of-resources-that-your-application-can-access-through-the-platform-api--
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
+  humanURL: http://sugarsync.com
+  baseURL: https://api.sugarsync.com//
+  tags: Backup, Cloud, Storage, Storage, File, Storage, Target, Getting Started Example,
+    Stack Network, Technology, Mobile, SaaS, internet, Relative Data, Service API,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-openapi.md
+- name: Sugar Sync  API
+  x-api-slug: sugar-sync--api
+  description: the-sugarsync-service-presents-a-set-of-resources-that-your-application-can-access-through-the-platform-api--
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
+  humanURL: http://sugarsync.com
+  baseURL: https://api.sugarsync.com//
+  tags: Backup, Cloud, Storage, Storage, File, Storage, Target, Getting Started Example,
+    Stack Network, Technology, Mobile, SaaS, internet, Relative Data, Service API,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/receivedshare-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/receivedshare-get-openapi.md
+- name: Sugar Sync  API
+  x-api-slug: sugar-sync--api
+  description: the-sugarsync-service-presents-a-set-of-resources-that-your-application-can-access-through-the-platform-api--
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
+  humanURL: http://sugarsync.com
+  baseURL: https://api.sugarsync.com//
+  tags: Backup, Cloud, Storage, Storage, File, Storage, Target, Getting Started Example,
+    Stack Network, Technology, Mobile, SaaS, internet, Relative Data, Service API,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/receivedshare-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/receivedshare-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/workspace-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/workspace-get-openapi.md
+- name: Sugar Sync  API
+  x-api-slug: sugar-sync--api
+  description: the-sugarsync-service-presents-a-set-of-resources-that-your-application-can-access-through-the-platform-api--
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
+  humanURL: http://sugarsync.com
+  baseURL: https://api.sugarsync.com//
+  tags: Backup, Cloud, Storage, Storage, File, Storage, Target, Getting Started Example,
+    Stack Network, Technology, Mobile, SaaS, internet, Relative Data, Service API,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/receivedshare-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/receivedshare-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/workspace-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/workspace-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/file-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/file-get-openapi.md
+- name: Sugar Sync  API
+  x-api-slug: sugar-sync--api
+  description: the-sugarsync-service-presents-a-set-of-resources-that-your-application-can-access-through-the-platform-api--
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
+  humanURL: http://sugarsync.com
+  baseURL: https://api.sugarsync.com//
+  tags: Backup, Cloud, Storage, Storage, File, Storage, Target, Getting Started Example,
+    Stack Network, Technology, Mobile, SaaS, internet, Relative Data, Service API,
+    Relative StreamRank, StreamRank
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/folder-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/receivedshare-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/receivedshare-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/workspace-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/workspace-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/file-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/file-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/album-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/sugarsync-/album-get-openapi.md
+- name: Sugar Sync  API
+  x-api-slug: sugar-sync--api
   description: SugarSync is a cloud file sharing, file sync and online backup service
     that is simple, powerful and easy to use. Unlike Dropbox, SugarSync enables you
     to back up your existing folder structure. Try it for FREE for 30 days and get
