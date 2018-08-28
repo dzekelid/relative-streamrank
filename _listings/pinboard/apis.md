@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboa
 x-kinRank: "9"
 x-alexaRank: "45688"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pinboard/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Pinboard
-  x-api-slug: pinboard
-  description: Pinboard is a bookmarking website for introverted people in a hurry.
-    The focus of the site is less on socializing, and more on speed and utility. Pinboard
-    tries to offer useful features without getting in your way. My highest priority
-    is keeping your data safe over the long term.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
-  humanURL: http://pinboard.in
-  baseURL: https://api.pinboard.in//v1
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/pinboard/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://payrun.api.gallery.streamdata.io

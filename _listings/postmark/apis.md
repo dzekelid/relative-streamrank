@@ -8,64 +8,35 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postma
 x-kinRank: "8"
 x-alexaRank: "87545"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/postmark/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Postmark
-  x-api-slug: postmark
-  description: Postmark helps deliver and track transactional emails for web applications.
-    In a nutshell, the service replaces SMTP (or Sendmail) with a far more reliable,
-    scalable and care-free environment. In addition, you can track statistics for
-    number of emails sent, bounces and spam complaints.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
-  humanURL: http://postmarkapp.com
-  baseURL: https://spamcheck.postmarkapp.com//
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/postmark/openapi.md
-- name: Postmark Account
-  x-api-slug: postmark-account
-  description: postmark-makes-sending-and-receiving-email-incredibly-easy--the-accountlevel-api-allows-users-toconfigure-all-servers-domains-and-sender-signatures-associated-with-an-account-
+- name: Postmark Account-level - List Domains
+  x-api-slug: domains-get
+  description: List domains.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
   baseURL: https://api.postmarkapp.com//
   tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
-    Data, Service API, Relative StreamRank, StreamRank
+    Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/postmark/domains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/postmark/domains-get-openapi.md
-- name: Postmark Account
-  x-api-slug: postmark-account
-  description: postmark-makes-sending-and-receiving-email-incredibly-easy--the-accountlevel-api-allows-users-toconfigure-all-servers-domains-and-sender-signatures-associated-with-an-account-
+- name: Postmark Account-level - List servers
+  x-api-slug: servers-get
+  description: List servers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
   baseURL: https://api.postmarkapp.com//
   tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
-    Data, Service API, Relative StreamRank, StreamRank
+    Data, Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/postmark/domains-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/postmark/domains-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/postmark/servers-get-openapi.md
-- name: Postmark Account
-  x-api-slug: postmark-account
-  description: Trusted by thousands of developers, Postmark is a fast and reliable
-    transactional email service. Send with Postmark to ensure your transactional emails
-    get to the inbox on time, every time.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
-  humanURL: http://postmarkapp.com
-  baseURL: https://api.postmarkapp.com//
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/postmark/openapi.md
 x-common:
 - type: x--net-library
   url: http://developer.postmarkapp.com/developer-official-libs.html#dot-net

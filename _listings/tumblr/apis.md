@@ -7,140 +7,84 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr
 x-kinRank: "7"
 x-alexaRank: "59"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Tumblr
-  x-api-slug: tumblr
-  description: ntshare-photos-mobile-apps-and-social-network-using-tumblrs-apis-n----
+- name: Tumblr - Get User Following
+  x-api-slug: userfollowing-get
+  description: Use this method to retrieve the blogs followed by the user whose OAuth
+    credentials are submitted with the request.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg
   humanURL: https://www.tumblr.com/
   baseURL: https://api.tumblr.com//v2/
   tags: Blog, Social, Content, Communications, Blogging, Communications, Stack, Media,
     Technology, internet, Mobile, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-openapi.md
-- name: Tumblr
-  x-api-slug: tumblr
-  description: ntshare-photos-mobile-apps-and-social-network-using-tumblrs-apis-n----
+- name: Tumblr - Get User Likes
+  x-api-slug: userlikes-get
+  description: Use this method to retrieve the liked posts that match the OAuth credentials
+    submitted with the request.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg
   humanURL: https://www.tumblr.com/
   baseURL: https://api.tumblr.com//v2/
   tags: Blog, Social, Content, Communications, Blogging, Communications, Stack, Media,
     Technology, internet, Mobile, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
+    Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userlikes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userlikes-get-openapi.md
-- name: Tumblr
-  x-api-slug: tumblr
-  description: ntshare-photos-mobile-apps-and-social-network-using-tumblrs-apis-n----
+- name: Tumblr - Get User Dashboard
+  x-api-slug: userdashboard-get
+  description: Use this method to retrieve the dashboard that matches the OAuth credentials
+    submitted with the request.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg
   humanURL: https://www.tumblr.com/
   baseURL: https://api.tumblr.com//v2/
   tags: Blog, Social, Content, Communications, Blogging, Communications, Stack, Media,
     Technology, internet, Mobile, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
+    Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userlikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userlikes-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userdashboard-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userdashboard-get-openapi.md
-- name: Tumblr
-  x-api-slug: tumblr
-  description: ntshare-photos-mobile-apps-and-social-network-using-tumblrs-apis-n----
+- name: Tumblr - Get Blog Base Hostname Followers
+  x-api-slug: blogbasehostnamefollowers-get
+  description: Retrieves a blog's followers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg
   humanURL: https://www.tumblr.com/
   baseURL: https://api.tumblr.com//v2/
   tags: Blog, Social, Content, Communications, Blogging, Communications, Stack, Media,
     Technology, internet, Mobile, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
+    Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userlikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userlikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userdashboard-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userdashboard-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/blogbasehostnamefollowers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/blogbasehostnamefollowers-get-openapi.md
-- name: Tumblr
-  x-api-slug: tumblr
-  description: ntshare-photos-mobile-apps-and-social-network-using-tumblrs-apis-n----
+- name: Tumblr - Add Blog Base Hostname Add
+  x-api-slug: blogbasehostnamepost-post
+  description: Creates a new video blog post.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg
   humanURL: https://www.tumblr.com/
   baseURL: https://api.tumblr.com//v2/
   tags: Blog, Social, Content, Communications, Blogging, Communications, Stack, Media,
     Technology, internet, Mobile, General Data, Relative Data, Service API, Pedestal,
-    Historical Data API, Relative StreamRank, StreamRank
+    Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userfollowing-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userlikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userlikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userdashboard-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/userdashboard-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/blogbasehostnamefollowers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/blogbasehostnamefollowers-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/blogbasehostnamepost-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/blogbasehostnamepost-post-openapi.md
-- name: Tumblr
-  x-api-slug: tumblr
-  description: Tumblr, is a microblogging platform, emphasizing ease of use, that
-    allows users to post text, images, videos, links, quotes and audio to their tumblelog,
-    a short-form blog. Users can follow other users, or choose to make their tumblelog
-    private.The Tumblr API is currently in its version 2.0, and provides a RESTful
-    API that takes advantage of a URI structured including version system(such as
-    blog or user), and allows blog owners to use a custom tumblr blog URL or custom
-    domains. The API uses OAuth for user authentication and all responses in JSON,
-    with JSONP also available. The API provides access to Tumblr Blogs in addition
-    to other characteristics like avatars, followers, photos, audio, video and other
-    user related information.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg
-  humanURL: https://www.tumblr.com/
-  baseURL: https://api.tumblr.com//v2/
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/tumblr/openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/tumblr.json

@@ -7,14 +7,14 @@ info:
   description: Gets a list of all checks that are visible to you as a user or a customer
     depending on the request context.
   version: 1.0.0
-host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.pingdom.com
+basePath: /
 paths:
   ? |2-
 

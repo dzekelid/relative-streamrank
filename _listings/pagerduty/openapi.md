@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: PagerDuty
 x-complete: 1
@@ -99,4 +98,3 @@ paths:
           description: OK
       tags:
       - Log Entries
----

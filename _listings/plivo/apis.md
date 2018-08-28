@@ -7,127 +7,75 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo
 x-kinRank: "8"
 x-alexaRank: "130970"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: this-is-the-api-for-managing-codenvy-account-
+- name: Codenvy Account API - Get Photos Votes
+  x-api-slug: photosidvotes-get
+  description: Returns all users that had liked this photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
   baseURL: :///account/https://codenvy.com/api
   tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
     Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
-    StreamRank
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photosidvotes-get-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: this-is-the-api-for-managing-codenvy-account-
+- name: Codenvy Account API - Get Photos Search
+  x-api-slug: photossearch-get
+  description: Returns a listing of twenty (up to one hundred) photos from search
+    results for a specified tag, keyword, or location.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
   baseURL: :///account/https://codenvy.com/api
   tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
     Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
-    StreamRank
+    Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photosidvotes-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photossearch-get-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: this-is-the-api-for-managing-codenvy-account-
+- name: Codenvy Account API - Get Users
+  x-api-slug: users-get
+  description: Returns the profile information for the current user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
   baseURL: :///account/https://codenvy.com/api
   tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
     Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
-    StreamRank
+    Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photosidvotes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photossearch-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/users-get-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: this-is-the-api-for-managing-codenvy-account-
+- name: Codenvy Account API - Get Users Search
+  x-api-slug: userssearch-get
+  description: Return listing of ten (up to one hundred) users from search results
+    for a specified search term.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
   baseURL: :///account/https://codenvy.com/api
   tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
     Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
-    StreamRank
+    Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photosidvotes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photossearch-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/users-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/userssearch-get-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: this-is-the-api-for-managing-codenvy-account-
+- name: Codenvy Account API - Get Photos Favorites
+  x-api-slug: photosidfavorites-get
+  description: Returns all users that had favorite that photo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
   baseURL: :///account/https://codenvy.com/api
   tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
     Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
-    StreamRank
+    Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photosidvotes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photossearch-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/users-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/userssearch-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photosidfavorites-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/photosidfavorites-get-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: 'Voice & SMS API Platform: Plivo enables businesses and developers
-    to tap into powerful Voice and SMS capabilities without carrier lock-in.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
-  humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/openapi.md
-- name: Plivo SMS
-  x-api-slug: plivo-sms
-  description: Plivo provides web developers with basic building blocks in the form
-    of Plivo XML and HTTP API, to create telephony apps, so developers can completely
-    do away with learning the nitty-gritty of the telephony plumbing.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
-  humanURL: http:///account
-  baseURL: https://api.plivo.com/v1/
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/openapi.md
-- name: Plivo Voice
-  x-api-slug: plivo-voice
-  description: 'Voice & SMS API Platform: Plivo enables businesses and developers
-    to tap into powerful Voice and SMS capabilities without carrier lock-in.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
-  humanURL: http:///account
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/plivo/openapi.md
 x-common:
 - type: x--net-library
   url: https://www.plivo.com/docs/helpers/dotnet/

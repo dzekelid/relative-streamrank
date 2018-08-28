@@ -6,14 +6,14 @@ info:
   title: Checks API Get Checks Results
   description: Gets a specific check result by a numeric java timestamp.
   version: 1.0.0
-host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.pingdom.com
+basePath: /
 paths:
   ? |2-
 

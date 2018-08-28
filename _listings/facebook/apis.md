@@ -7,400 +7,146 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebo
 x-kinRank: "9"
 x-alexaRank: "3"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get Veo Likes
+  x-api-slug: videolikes-get
+  description: Users who like this video.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get Veo Comments
+  x-api-slug: videocomments-get
+  description: All of the comments on this video.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get User Veos
+  x-api-slug: uservideos-get
+  description: The videos this user has been tagged in
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get User Statuses
+  x-api-slug: userstatuses-get
+  description: The user's status updates
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get User Adds
+  x-api-slug: userposts-get
+  description: The user's posts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get User Photos
+  x-api-slug: userphotos-get
+  description: The photos the user is tagged in
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userphotos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userphotos-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get User Likes
+  x-api-slug: userlikes-get
+  description: All the pages this user has liked.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userphotos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userlikes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userlikes-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get User Friends
+  x-api-slug: userfriends-get
+  description: The user's friends
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userphotos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userlikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userlikes-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userfriends-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userfriends-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+- name: Facebook - Get User Events
+  x-api-slug: userevents-get
+  description: The events this user is attending.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
   baseURL: https://graph.facebook.com//
   tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
     Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
     Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
-    Data API, Relative StreamRank, StreamRank
+    Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videolikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/videocomments-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/uservideos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userstatuses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userposts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userphotos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userlikes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userlikes-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userfriends-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userfriends-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userevents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/userevents-get-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https://graph.facebook.com//
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get Conversation Messages (stream)
-  x-api-slug: facebook-get-conversation-messages-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get Group Feed (stream)
-  x-api-slug: facebook-get-group-feed-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get Life Event (stream)
-  x-api-slug: facebook-get-life-event-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get Live Veo (stream)
-  x-api-slug: facebook-get-live-veo-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get Message Shares (stream)
-  x-api-slug: facebook-get-message-shares-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get Object Comments (stream)
-  x-api-slug: facebook-get-object-comments-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get Object Likes (stream)
-  x-api-slug: facebook-get-object-likes-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get User Conversations (stream)
-  x-api-slug: facebook-get-user-conversations-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
-- name: Facebook Get User Photos (stream)
-  x-api-slug: facebook-get-user-photos-stream
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/facebook/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share

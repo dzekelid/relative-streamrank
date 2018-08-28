@@ -7,98 +7,69 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-a
 x-kinRank: "8"
 x-alexaRank: "79571"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: the-urban-airships-api-powers-mobile-applications-with-push-rich-push-inapp-purchases-and-subscription-services-
+- name: Urban Airship - Get Feeds
+  x-api-slug: feeds-get
+  description: Gets a list of feeds.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
   tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
-    Relative Data, Service API, Locations, Locations, Relative StreamRank, StreamRank
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/feeds-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/feeds-get-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: the-urban-airships-api-powers-mobile-applications-with-push-rich-push-inapp-purchases-and-subscription-services-
+- name: Urban Airship - Get Partner Apps
+  x-api-slug: partnerapps-get
+  description: List applications.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
   tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
-    Relative Data, Service API, Locations, Locations, Relative StreamRank, StreamRank
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/feeds-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/feeds-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/partnerapps-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/partnerapps-get-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: the-urban-airships-api-powers-mobile-applications-with-push-rich-push-inapp-purchases-and-subscription-services-
+- name: Urban Airship - Get Push Stats
+  x-api-slug: pushstats-get
+  description: 'Returns hourly message counts for your application. By default, results
+    are returned in JSON. For CSV, either add the header:Accept:text/csv or append
+    &format=csv to the query string. Times are in UTC, and data is provided for each
+    push platform (currently: iOS, BlackBerry, Android, and C2DM, in that order).
+    The statistics system is updated every 15 minutes, so the final count for an hour
+    will be done at the latest 15 minutes after the hour is done.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
   tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
-    Relative Data, Service API, Locations, Locations, Relative StreamRank, StreamRank
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/feeds-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/feeds-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/partnerapps-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/partnerapps-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/pushstats-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/pushstats-get-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: the-urban-airships-api-powers-mobile-applications-with-push-rich-push-inapp-purchases-and-subscription-services-
+- name: Urban Airship - Get User User Messages
+  x-api-slug: useruser-idmessages-get
+  description: Returns a list of messages and some metadata about them. It will also
+    include some metadata about the user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
   tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
-    Relative Data, Service API, Locations, Locations, Relative StreamRank, StreamRank
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/feeds-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/feeds-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/partnerapps-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/partnerapps-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/pushstats-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/pushstats-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/useruser-idmessages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/useruser-idmessages-get-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: The Urban Airship Push API is a major update which unifies several
-    legacy endpoints into two&mdash; one for sending messages and one for scheduling.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
-  humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api/
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/urban-airship/openapi.md
 x-common:
 - type: x-website
   url: http://urbanairship.com/

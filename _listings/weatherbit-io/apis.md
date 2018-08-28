@@ -7,52 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weat
 x-kinRank: "8"
 x-alexaRank: "1016253"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Weatherbit
-  x-api-slug: weatherbit
-  description: this-is-the-documentation-for-the-weatherbit-api---the-base-url-for-the-api-is-httpapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0-or-httpsapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0--below-is-the-swagger-ui-documentation-for-the-api--all-api-requests-require-the-key-parameter---------an-example-for-a-5-day-forecast-for-london-uk-would-be-httpapi-weatherbit-iov2-0forecast3hourlycitylondoncountryuk
+- name: Weatherbit - Get Forecast 3hourly City & Country
+  x-api-slug: forecast3hourlycitycitycountrycountry-get
+  description: Returns a 3-hourly forecast, where each point represents a three hour   period.
+    Every point has a datetime string in the format "YYYY-MM-DD:HH". Time is UTC.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg
   humanURL: http://weatherbit.io
   baseURL: https://api.weatherbit.io//v2.0
-  tags: Weather, SaaS, Broadcasts, General Data, Service API, StreamRank, Relative
-    StreamRank
+  tags: Weather, SaaS, Broadcasts, General Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/forecast3hourlycitycitycountrycountry-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/forecast3hourlycitycitycountrycountry-get-openapi.md
-- name: Weatherbit
-  x-api-slug: weatherbit
-  description: this-is-the-documentation-for-the-weatherbit-api---the-base-url-for-the-api-is-httpapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0-or-httpsapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0--below-is-the-swagger-ui-documentation-for-the-api--all-api-requests-require-the-key-parameter---------an-example-for-a-5-day-forecast-for-london-uk-would-be-httpapi-weatherbit-iov2-0forecast3hourlycitylondoncountryuk
+- name: Weatherbit - Get Current Cities
+  x-api-slug: currentcitycity-get
+  description: '**(Advanced/Advanced+/Enterprise plans only)** Returns a group of
+    Current Observations - Given a list of City IDs.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg
   humanURL: http://weatherbit.io
   baseURL: https://api.weatherbit.io//v2.0
-  tags: Weather, SaaS, Broadcasts, General Data, Service API, StreamRank, Relative
-    StreamRank
+  tags: Weather, SaaS, Broadcasts, General Data, Service API, Relative StreamRank,
+    Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/forecast3hourlycitycitycountrycountry-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/forecast3hourlycitycitycountrycountry-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/currentcitycity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/currentcitycity-get-openapi.md
-- name: Weatherbit
-  x-api-slug: weatherbit
-  description: Our Weather API is the most powerful Weather data API on the web. Sign
-    up for our free Weather API, and upgrade as your weather data needs grow!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg
-  humanURL: http://weatherbit.io
-  baseURL: https://api.weatherbit.io//v2.0
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/weatherbit-io/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://weather.underground.api.gallery.streamdata.io

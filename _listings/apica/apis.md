@@ -7,246 +7,68 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "876355"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Alerts API
-  x-api-slug: alerts-api
-  description: the-alerts-api-
+- name: Alerts API - Triggered Alerts
+  x-api-slug: alertstriggered-get
+  description: Get a list of all triggered alerts on your account, per subject (device
+    or service) or per alert config.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
   baseURL: ://api.serverdensity.io./
   tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
-    Profiles, Service API, Relative Data, Relative StreamRank, StreamRank
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/alertstriggered-get-openapi.md
-- name: Alerts API
-  x-api-slug: alerts-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: ://api.serverdensity.io./
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Browser Checks API
-  x-api-slug: browser-checks-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Checks API
-  x-api-slug: checks-api
-  description: the-checks-api-
+- name: Checks API - Get Check List
+  x-api-slug: apiversionchecks-get
+  description: Returns a list overview of all checks.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
   baseURL: https://api.pingdom.com//
   tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
-    Profiles, Service API, Relative Data, Relative StreamRank, StreamRank
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/apiversionchecks-get-openapi.md
-- name: Checks API
-  x-api-slug: checks-api
-  description: the-checks-api-
+- name: Checks API - Get Checks
+  x-api-slug: checks-get
+  description: Gets a list of all checks that are visible to you as a user or a customer
+    depending on the request context.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
   baseURL: https://api.pingdom.com//
   tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
-    Profiles, Service API, Relative Data, Relative StreamRank, StreamRank
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/apiversionchecks-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/checks-get-openapi.md
-- name: Checks API
-  x-api-slug: checks-api
-  description: the-checks-api-
+- name: Checks API - Get Checks Results
+  x-api-slug: checkscheckidresultsmillisecondsutc-get
+  description: Gets a specific check result by a numeric java timestamp.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
   baseURL: https://api.pingdom.com//
   tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
-    Profiles, Service API, Relative Data, Relative StreamRank, StreamRank
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/apiversionchecks-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/checks-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/checkscheckidresultsmillisecondsutc-get-openapi.md
-- name: Checks API
-  x-api-slug: checks-api
-  description: the-checks-api-
+- name: Checks API - Get Checks Results
+  x-api-slug: checkscheckidresults-get
+  description: Gets the most recent check results.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
   baseURL: https://api.pingdom.com//
   tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
-    Profiles, Service API, Relative Data, Relative StreamRank, StreamRank
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/apiversionchecks-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/checks-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/checkscheckidresultsmillisecondsutc-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/checkscheckidresults-get-openapi.md
-- name: Checks API
-  x-api-slug: checks-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: https://api.pingdom.com//
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Checks Command API
-  x-api-slug: checks-command-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Checks Job API
-  x-api-slug: checks-job-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Checks Ping API
-  x-api-slug: checks-ping-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Checks Port API
-  x-api-slug: checks-port-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Checks Proxysniffer
-  x-api-slug: checks-proxysniffer
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Checks URL
-  x-api-slug: checks-url
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Customers API
-  x-api-slug: customers-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Groups API
-  x-api-slug: groups-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Messages API
-  x-api-slug: messages-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Roles API
-  x-api-slug: roles-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
-- name: Scenarios API
-  x-api-slug: scenarios-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/apica/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://apica.api.gallery.streamdata.io

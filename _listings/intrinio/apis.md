@@ -5,55 +5,18 @@ description: Intelligent Data, On Demand. The financial data platform for develo
   investors, students, and educators, with over 200 feeds including real-time, intraday,
   EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
   and Goo...
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
 x-kinRank: "8"
 x-alexaRank: "303229"
 tags: Relative StreamRank
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: Intelligent Data, On Demand. The financial data platform for developers,
-    investors, students, and educators, with over 200 feeds including real-time, intraday,
-    EOD, and international financial data available via REST API, WebSocket, CSV,
-    Excel, and Goo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https://api.intrinio.com//
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/intrinio/openapi.md
-- name: Intrinio Press Releases (stream)
-  x-api-slug: intrinio-press-releases-stream
-  description: Intelligent Data, On Demand. The financial data platform for developers,
-    investors, students, and educators, with over 200 feeds including real-time, intraday,
-    EOD, and international financial data available via REST API, WebSocket, CSV,
-    Excel, and Goo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/intrinio/openapi.md
-- name: Intrinio Securities (stream)
-  x-api-slug: intrinio-securities-stream
-  description: Intelligent Data, On Demand. The financial data platform for developers,
-    investors, students, and educators, with over 200 feeds including real-time, intraday,
-    EOD, and international financial data available via REST API, WebSocket, CSV,
-    Excel, and Goo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https:///
-  tags: Relative StreamRank
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/relative-streamrank/master/_listings/intrinio/openapi.md
+apis: []
 x-common:
+- type: x-website
+  url: http://www.intrinio.com
 - type: x-api-gallery
   url: http://international.trade.administration.api.gallery.streamdata.io
 - type: x-api-stack
